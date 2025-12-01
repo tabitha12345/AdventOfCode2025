@@ -2,9 +2,6 @@
 
 input_file = "day01_input.txt"
 
-# Populate a list with the numbers 0-99:
-dial = list(range(100))
-
 # initialize start positions
 dial_location = 50
 counter = 0
@@ -37,5 +34,6 @@ except FileNotFoundError:
 except Exception as e:
     print(f"Another random error occurred: {e}")
 
-print("Part 1: The number of times the counter hits 0 is " + str(counter))
+print("Part 1: The number of times the dial location hits 0 is " + str(counter))
 
+print(dial_location)
