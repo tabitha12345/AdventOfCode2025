@@ -35,5 +35,3 @@ except Exception as e:
     print(f"Another random error occurred: {e}")
 
 print("Part 1: The number of times the dial location hits 0 is " + str(counter))
-
-print(dial_location)
