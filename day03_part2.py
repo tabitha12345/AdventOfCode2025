@@ -31,7 +31,6 @@ try:
 
             # Use the maximum joltage for this bank
             bank_joltage = max_joltage
-            print(bank_joltage)
 
             # Add bank joltage to total output joltage
             total_output_joltage = total_output_joltage + bank_joltage
